@@ -1,0 +1,60 @@
+# ========================
+# Node modules & dependencies
+# ========================
+node_modules/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# Build folders (frontend / backend)
+# ========================
+dist/
+dist-ssr/
+build/
+
+# ========================
+# Environment files
+# ========================
+.env
+*.local
+
+# ========================
+# Package lock files
+# ========================
+package-lock.json
+yarn.lock
+
+# ========================
+# ESLint / IDE files
+# ========================
+eslint.config.js
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Optional / Temporary
+# ========================
+coverage/
+*.tmp
+*.bak
