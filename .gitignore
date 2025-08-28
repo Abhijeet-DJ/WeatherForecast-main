@@ -2,6 +2,11 @@
 # Node modules & dependencies
 # ========================
 node_modules/
+.env
+logs/
+dist/
+build/
+
 
 # ========================
 # Logs
