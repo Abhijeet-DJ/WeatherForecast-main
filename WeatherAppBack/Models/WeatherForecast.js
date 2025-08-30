@@ -55,6 +55,7 @@ const ForecastSchema = new mongoose.Schema({
   message: Number,
   cnt: Number,
  
+  Hourly : [],
   city: {
     name: { type: String, required: true }, 
     country: String,
@@ -63,4 +64,4 @@ const ForecastSchema = new mongoose.Schema({
 });
 
 
-module.exports = mongoose.model('Forecast', ForecastSchema);
+module.exports = mongoose.model('Forecast', ForecastSchema); 
